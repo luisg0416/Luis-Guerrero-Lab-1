@@ -6,6 +6,7 @@ public class Hello {
         String name;
         String location;
         String age;
+        // Allows user to input age as a word and as a number.
 
         System.out.print("Hello. What is your name? ");
         name = scnr.next(); // User inputs their name.
